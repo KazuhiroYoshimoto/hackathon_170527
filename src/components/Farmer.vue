@@ -1,10 +1,11 @@
 <template>
     <div class="hello">
-    <h2>農家登録画面</h2>
+    <h2>Farmer</h2>
     	<div class="mdl-card mdl-card-order mdl-shadow--8dp main">
       <div class="mdl-card__title">
         <h2 class="mdl-card__title-text">野菜登録</h2>
       </div>
+      <p>出荷したい野菜を登録してください</p>
       <div class="mdl-card__supporting-text mdl-grid">
         <form action="#" class="form">
           <div>
@@ -48,5 +49,5 @@
 
 <script src="./Farmer.js"></script>
 
-<style lang="scss" scoped src="./Driver.scss"></style>
+<style lang="scss" scoped src="./Farmer.scss"></style>
 <style lang="scss" scoped src="../css/material.min.css"></style>
