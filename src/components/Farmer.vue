@@ -1,7 +1,10 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <h2>Farmer</h2>
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+  <i class="material-icons">add</i>
+</button>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
@@ -20,6 +23,7 @@
   </div>
 </template>
 
-<script src="./Hello.js"></script>
+<script src="./Driver.js"></script>
 
-<style lang="scss" scoped src="./Hello.scss"></style>
+<style lang="scss" scoped src="./Driver.scss"></style>
+<style lang="scss" scoped src="../css/material.min.css"></style>
