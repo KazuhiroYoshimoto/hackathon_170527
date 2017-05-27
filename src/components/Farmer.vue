@@ -1,29 +1,52 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Farmer</h2>
-    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-  <i class="material-icons">add</i>
-</button>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://gitter.im/vuejs/vue" target="_blank">Gitter Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-      <br>
-      <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a></li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
-  </div>
+    <div class="hello">
+    <h2>農家登録画面</h2>
+    	<div class="mdl-card mdl-card-order mdl-shadow--8dp main">
+      <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">野菜登録</h2>
+      </div>
+      <div class="mdl-card__supporting-text mdl-grid">
+        <form action="#" class="form">
+          <div>
+            <p style="display:inline-block;">種別</p>
+            <select name="blood" >
+              <option value="A">レタス</option>
+              <option value="B">キャベツ</option>
+              <option value="O">きゅうり</option>
+              <option value="AB">トマト</option>
+            </select>
+          </div>
+          <div>
+            <p style="display:inline-block;">数量</p>
+            <select name="blood" >
+              <option value="A">1</option>
+              <option value="B">2</option>
+              <option value="O">3</option>
+              <option value="AB">4</option>
+              <option value="AB">5</option>
+            </select>
+          </div>
+          <div>
+            <p style="display:inline-block;">金額</p>
+            <select name="blood" >
+              <option value="A">100</option>
+              <option value="B">200</option>
+              <option value="O">300</option>
+              <option value="AB">400</option>
+            </select>
+          </div>
+          <div class="mdl-card__actions mdl-cell--12-col send-button">
+          <button class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--raised mdl-button--colored" id="send">
+              COMPLETE ORDER	
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+	</div>
 </template>
 
-<script src="./Driver.js"></script>
+<script src="./Farmer.js"></script>
 
 <style lang="scss" scoped src="./Driver.scss"></style>
 <style lang="scss" scoped src="../css/material.min.css"></style>
